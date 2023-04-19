@@ -1,0 +1,18 @@
+body {
+background-color: rgb(234, 230, 225);
+background-image: url("https://images.pexels.com/photos/7130476/pexels-photo-7130476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#business-name {
+  font-family: 'Cedarville Cursive', cursive;
+  position: absolute;
+  right: 5%;
+  font-size: 30px;
+}
+
+#picture {
+    background-size: 25%;
+    background-image: url("https://images.unsplash.com/photo-1623246123320-0d6636755796?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60");
+}
