@@ -67,12 +67,18 @@ cupcake2 = Regular("Chocolate Dream", 2.75, "Chocolate", "Chocolate Fudge", "non
 cupcake3 = Large("Oreo", 4.00, "Chocolate", "Oreo Whip Cream", "Oreo Crumbles", "Oreo Whip Cream")
 cupcake4 = Mini("Red, White and Blue", 1.99, "Red Velvet", "Blue Cream Cheese Frosting", "Whip Cream")
 cupcake4.add_sprinkles("Red, White and Blue Sprinkles")
+cupcake5 = Large("Strawberry", 4.00, "Strawberry", "Strawberry Cream Cheese", "Fresh Strawberries", "Fresh Strawberries")
+cupcake6 = Mini("Red Velvet", 1.99, "")
+cupcake7 = 
 
 cupcake_list = [
     cupcake1,
     cupcake2,
     cupcake3,
-    cupcake4
+    cupcake4,
+    cupcake5,
+    cupcake6,
+    cupcake7,
 ]
         
 def write_new_csv(file, cupcakes):

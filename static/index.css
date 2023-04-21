@@ -1,18 +1,151 @@
+
+/* animated back ground */
+
 body {
-background-color: rgb(234, 230, 225);
-background-image: url("https://images.pexels.com/photos/7130476/pexels-photo-7130476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-background-repeat: no-repeat;
-background-size: cover;
-}
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #e77abf;
+    scroll-behavior: smooth;
+  }
+  
+  .text-container {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-container h1{
+    margin: 0;
+    font-size: 150px;
+    color: rgba(225,225,225, .01);
+    background-image: url("https://media.istockphoto.com/id/652242330/photo/cupcake-background.jpg?s=612x612&w=0&k=20&c=ISXHymEtdupb-h9p1meF-lH57U2pKU0IwZyXd2uKDAk=");
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+    @keyframes animate {
+      0%, 100% {
+        background-position: left top;
+      }
+      25%{
+        background-position: right bottom;
+       }
+      50% {
+        background-position: left bottom;
+      }
+      75% {
+        background-position: right top;
+      }   
+  }
 
-#business-name {
-  font-family: 'Cedarville Cursive', cursive;
-  position: absolute;
-  right: 5%;
-  font-size: 30px;
-}
+  /* Order Button */
 
-#picture {
-    background-size: 25%;
-    background-image: url("https://images.unsplash.com/photo-1623246123320-0d6636755796?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60");
-}
+  .order-button {
+    height: 15px;
+    width: 19px;
+  }
+
+  #order {
+    font-family: 'Raleway', sans-serif;
+    height: 51px;width: 113px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: aqua;
+    margin-left: 386px;
+    margin-top: 11px;
+    font-size: 18px;
+  }
+
+  /* Menu Button */
+
+  /* .menu {
+    font-family: 'Raleway', sans-serif;
+    height: 51px;width:
+    113px;border-radius:
+    30px;border-style: double;
+    margin-left: 738px;
+    background-color: aqua;
+    font-size: 19px;
+    
+  } */
+
+  #chocolate-cupcake {
+    border-style: groove;
+    border-color: black;
+    width: 34%;
+    margin-left: 75px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(199,69,157);
+    border-radius: 15px;
+  }
+  
+  #strawberry-cupcake {
+    border-style: groove;
+    border-color: black;
+    width: 34%;
+    margin-left: 56%;
+    margin-top: -16%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(223,148,198);
+    border-radius: 15px;
+  }
+
+  #vanilla-cupcake {
+    border-style: groove;
+    border-color: black;
+    width: 34%;
+    margin-left: 75px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(205,89,167);
+    border-radius: 15px;
+  }
+
+  #cookies-and-cream-cupcake {
+    border-style: groove;
+    border-color: black;
+    width: 34%;
+    margin-left: 56%;
+    margin-top: -12%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(229,167,209);
+    border-radius: 15px;
+  }
+
+  #peanut-butter-cupcake {
+    border-style: groove;
+    border-color: black;
+    width: 34%;
+    margin-left: 75px;
+    margin-top: -38px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(211,108,178);
+    border-radius: 15px;
+  }
+
+  #birthday-cupcake {
+    border-style: groove;
+    border-color: black;
+    width: 34%;
+    margin-left: 56%;
+    margin-top: -15%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(235,187,219);
+    border-radius: 15px;
+  }
+
+  #red-velvet-cupcake {
+    border-style: groove;
+    border-color: black;
+    width: 34%;
+    margin-left: 75px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(217,128,188);
+    border-radius: 15px;
+  }
