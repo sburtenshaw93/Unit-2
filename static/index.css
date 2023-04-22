@@ -45,42 +45,12 @@ body {
       }   
   }
 
-  /* Order Button */
-
-  .order-button {
-    height: 15px;
-    width: 19px;
-  }
-
-  #order {
-    font-family: 'Raleway', sans-serif;
-    height: 51px;width: 113px;
-    border-radius: 30px;
-    border-style: none;
-    background-color: aqua;
-    margin-left: 386px;
-    margin-top: 11px;
-    font-size: 18px;
-  }
-
-  /* Menu Button */
-
-  /* .menu {
-    font-family: 'Raleway', sans-serif;
-    height: 51px;width:
-    113px;border-radius:
-    30px;border-style: double;
-    margin-left: 738px;
-    background-color: aqua;
-    font-size: 19px;
-    
-  } */
-
   #chocolate-cupcake {
     border-style: groove;
     border-color: black;
     width: 34%;
     margin-left: 75px;
+    margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(199,69,157);
     border-radius: 15px;
@@ -91,7 +61,7 @@ body {
     border-color: black;
     width: 34%;
     margin-left: 56%;
-    margin-top: -16%;
+    margin-top: 2%;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(223,148,198);
     border-radius: 15px;
@@ -112,7 +82,7 @@ body {
     border-color: black;
     width: 34%;
     margin-left: 56%;
-    margin-top: -12%;
+    margin-top: -35%;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(229,167,209);
     border-radius: 15px;
@@ -123,7 +93,7 @@ body {
     border-color: black;
     width: 34%;
     margin-left: 75px;
-    margin-top: -38px;
+    margin-top: 19px;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(211,108,178);
     border-radius: 15px;
@@ -134,7 +104,7 @@ body {
     border-color: black;
     width: 34%;
     margin-left: 56%;
-    margin-top: -15%;
+    margin-top: 4%;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(235,187,219);
     border-radius: 15px;
@@ -145,7 +115,26 @@ body {
     border-color: black;
     width: 34%;
     margin-left: 75px;
+    margin-top: -208px;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(217,128,188);
     border-radius: 15px;
+  }
+
+  #add-to-chart {
+    height: 24px;
+    width: 94px;
+    margin-left: 76%;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: hidden;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #add-to-chart:hover {
+    background-color: aliceblue;
+  }
+  #chart {
+    margin-left: 82%;
+    font-family: 'Montserrat', sans-serif;
   }

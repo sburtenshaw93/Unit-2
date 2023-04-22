@@ -1,0 +1,8 @@
+id,size,name,price,flavor,frosting,sprinkles,filling
+vanilla-cupcake,Regular,Vanilla,3.99,Vanilla,Vanilla,[],Whip Cream
+chocolate-cupcake,Regular,Chocolate Dream,3.99,Chocolate Dream,Chocolate Fudge,[],Chocolate Pudding
+cookies-and-cream-cupcake,Large,Oreo,4.99,Oreo,Oreo Whip Cream,['Oreo Crumbles'],Oreo Whip Cream
+strawberry-cupcake,Large,Strawberry,4.99,Strawberry,Strawberry Cream Cheese,[],Fresh Strawberries
+birthday-cupcake,Mini,"Red, White and Blue",1.99,Red White and Blue,Blue Cream Cheese Frosting,"['Red, White and Blue Sprinkles']",
+red-velvet-cupcake,Mini,Red Velvet,1.99,Red Velvet,Cream Cheese,[],
+peanut-butter-cupcake,Mini,Peanut Butter,1.99,Peanut Butter Cup,Peanut Butter Whip,['Reeses Peanut Butter Cups'],
