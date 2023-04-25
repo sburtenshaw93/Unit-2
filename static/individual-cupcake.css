@@ -1,0 +1,15 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/cupcakes-table_144627-45991.jpg");
+    background-size: cover;
+}
+header {
+    margin-left: 68%;
+    font-size: 23px;
+}
+
+.cupcake {
+    margin-left: 71%;
+    margin-top: 10%;
+    border-style: solid;
+    width: 22%;
+}

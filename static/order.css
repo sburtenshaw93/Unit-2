@@ -1,0 +1,18 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/935241252/photo/sweet-cupcakes.jpg?s=612x612&w=0&k=20&c=UY5P936DySsTl-fPsWEEhLxm3X0MQuUvdMyFbUprD-Y=");
+    background-size: cover;
+}
+header {
+    margin-left: 42%;
+    margin-top: 26%;
+    color: rgb(206, 217, 227);
+    font-size: 23px;
+}
+
+#order-items {
+    color: rgb(206, 217, 227);
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    border-style: dashed;
+}

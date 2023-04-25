@@ -134,7 +134,4 @@ body {
   #add-to-chart:hover {
     background-color: aliceblue;
   }
-  #chart {
-    margin-left: 82%;
-    font-family: 'Montserrat', sans-serif;
-  }
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='order.css') }}">
+    <title>Order</title>
+</head>
+<body>
+
+    <header>
+        <h1>Ordered Items</h1>
+    </header>  
+    <div id="order-items">  
+        <table class="table table-bordered" id="cupcake-order">
+                <h5>Cupcake:</h5>
+                <h5>Price:</h5>
+                <h5>Quantity:</h5>
+            {% for cupcake in cupcakes %}
+                    <h6>{{ cupcake[0] }}</h6>
+                    <h6>Price: {{ cupcake[1] }}</h6>
+                    <h6>Quantity: {{ cupcake[2] }}</h6>
+            {% endfor %}
+        </table>
+    </div>    
+</body>
+<script src="cupcakes.py"></script>
+</html>
